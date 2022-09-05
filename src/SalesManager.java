@@ -29,8 +29,8 @@ public class SalesManager {
     public int avgTrimmed() {
         int sum = 0;
         for (int sale : sales) {
-sum +=sale;
+            sum +=sale;
         }
-return (sum - min() - max()) / sales.length - 2);
-}
+        return (sum - min() - max()) / sales.length - 2);
+    }
 }
